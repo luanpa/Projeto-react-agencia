@@ -1,8 +1,15 @@
-
+import Home from "./componentes/Home";
+import Lugares from "./componentes/Lugares";
+import Nav from "./componentes/Nav";
+import Footer from "./componentes/Footer";
 function App() {
   return (
     <div className="App">
-      <h1 className='text'>Hello world</h1>
+  
+      <Home/>
+      <Nav/>
+      <Lugares/>
+      <Footer/>
     </div>
   );
 }
