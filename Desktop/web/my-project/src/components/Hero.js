@@ -25,6 +25,7 @@ const Hero = () => {
                 </li>
              </ul>
             </div>
+            
       </div>
       
   )

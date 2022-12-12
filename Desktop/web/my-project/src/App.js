@@ -1,7 +1,8 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import TakeAction from "./components/TakeAction";
-
+import Roda from "./components/Roda";
+import Feedback from "./components/Feedback";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Hero/>
       {/* take action */}
         <TakeAction/>
-      {/* Services */}
-      <div className="h-screen"></div>{/* deixa home preta */}
+      {/* Feedback */}
+        <Feedback/>
+      <Roda/>
     </div>
   );
 }
