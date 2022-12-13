@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "tailwindcss": "^3.2.4"
-  },
-  "dependencies": {
-    "react-native-vector-icons": "^9.2.0"
-  }
-}
