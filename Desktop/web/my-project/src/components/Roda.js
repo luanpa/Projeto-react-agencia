@@ -3,9 +3,9 @@ import React from 'react'
 
 const Roda = () => {
   return (
-    <footer class="text-center  text-white bg-[#151515]  pl-20  h-70">
-    <div class="container px-6 pt-6 bg-[#151515]">
-      <div class="flex justify-center mb-6">
+    <footer class="text-center  text-white bg-[#151515]  pl-20   h-70 ">
+    <div class="container px-6 pt-6 bg-[#151515] ">
+      <div class="flex justify-center mb-6 pl-20   h-70">
         <a href="#!" type="button" class=" rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none  items-center focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
           <svg aria-hidden="true"
           focusable="false"
@@ -111,9 +111,9 @@ const Roda = () => {
   
       <div>
         <form action="">
-          <div class="grid md:grid-cols-3 gird-cols-1 gap-4 flex justify-center items-center">
+          <div class="grid md:grid-cols-3 gird-cols-1 gap-4 flex justify-center items-center pl-20   h-70">
             <div class="md:ml-auto md:mb-6">
-              <p class="">
+              <p class="text-[17px]">
                 <strong>Assine a nossa <span className='text-[#04FBBA]'>Newsletter</span></strong>
               </p>
             </div>
@@ -143,7 +143,7 @@ const Roda = () => {
             </div>
   
             <div class="md:mr-auto mb-6">
-              <button type="submit" class="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+              <button type="submit" class="text-[17px] inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
               se inscrever
               </button>
             </div>
